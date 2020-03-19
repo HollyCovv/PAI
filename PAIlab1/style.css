@@ -1,0 +1,33 @@
+li { list-style-type: square }
+#cena{
+color : red;
+font-weight: bold;
+}
+#wstep{
+font-style: italic;
+}
+img {
+	border-style: solid;
+	border-color: blue;
+
+}
+img:hover {
+	border-style: solid;
+	border-color: red;
+
+}
+h2{
+letter-spacing: 5px;
+}
+td[colspan="2"] p{
+	font-size: small;
+}
+td p~p{
+color:red;
+}
+body{
+background-image: url('xd.jpg');
+ background-repeat: repeat-y;
+}
+h1 { color: blue }
+h1 { color: green }
