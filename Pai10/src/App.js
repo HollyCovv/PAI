@@ -54,7 +54,7 @@ Add = async (todo) =>{
   console.log(todo)
   let updatedTodos = this.state.todos
   updatedTodos.push(todo)
-  this.setState({todoText : "", todos : updatedTodos})
+  this.setState({todos : updatedTodos})
 }
 
   
