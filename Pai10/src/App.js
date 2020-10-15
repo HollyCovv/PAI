@@ -43,13 +43,7 @@ handleFilter(){
     }
   })
 }
-handleAdd(){
-  this.setState(prevState => {
-    return{
-      filter: !prevState.filter
-    }
-  })
-}
+
 Add = async (todo) =>{
   console.log(todo)
   let updatedTodos = this.state.todos
